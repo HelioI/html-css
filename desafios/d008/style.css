@@ -1,0 +1,49 @@
+#azul {
+    background-color: lightblue;
+    font-weight: bolder;
+    color: darkblue;
+}
+
+#vermelha {
+    background-color: lightcoral;
+    font-weight: bolder;
+    color: darkred;
+}
+
+#amarela {
+    background-color: lightyellow;
+    font-weight: bolder;
+    color: rgb(190, 190, 1);
+}
+
+#area_vermelha {
+    color: darkred;    
+}
+
+#area_amarela {
+    color: rgb(190, 190, 1);
+}
+
+#area_azul {
+    color: darkblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#area_vermelha > a  {
+    color: darkred;
+}
+
+#area_amarela > a {
+    color:  rgb(190, 190, 1);
+}
+
+#area_azul > a {
+    color: darkblue
+}
