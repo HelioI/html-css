@@ -10,6 +10,17 @@
 header {
     color: white;
     background-color: black;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover {
+    text-decoration: underline;
 }
 
 div#bg1 {
@@ -19,8 +30,22 @@ div#bg1 {
 }
 
 div#bg2 {
-    height: 100vh;
     background: url(imagens/background002.jpg) no-repeat fixed center center;
     background-size: 100%;
 }
 
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
