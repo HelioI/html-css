@@ -27,6 +27,7 @@ div#bg1 {
     height: 100vh;
     background: url(imagens/background001.jpg) no-repeat fixed center center;
     background-size: 100%;
+    max-height: 200px;
 }
 
 div#bg2 {
