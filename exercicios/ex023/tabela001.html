@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        tr#linha01 {
+            color: blue;
+            background-color: white;
+        }
+
+        tr#linha02 {
+            color: white;
+            background-color: grey;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px
+        }
+        
+        td:hover {
+            background-color: aqua;
+        }
+
+        td#dadodestaque {
+            color: lightblue;
+            background-color: blueviolet;
+        }
+
+        td#dadodestaque:hover {
+            color: yellowgreen;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <table>
+        <tr id="linha01">
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr id="linha02">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td id="dadodestaque">B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+</body>
+</html>
